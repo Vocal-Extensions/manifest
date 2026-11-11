@@ -1,3 +1,59 @@
-{
-    
-}
+[
+    {
+        "guid": "060ea4dd-4c04-4db2-a961-e10f975a929c",
+        "name": "Intro Enhanced",
+        "description": "Select a flashy pre-roll from local storage to run before any video content. The video details are loaded from disk after a video is played from the library from the beginning of the video. A random video is selected, and all videos in the local directory are enabled by default. Specific videos can be enabled or disabled as necessary. After videos are loaded for the first time, additional videos found in the directory are not enabled by default.",
+        "overview": "Display flashy intros before movies and other videos",
+        "owner": "Zach J Murphy",
+        "category": "MoviesAndShows",
+        "imageUrl": "https://raw.githubusercontent.com/Vocal-Extensions/manifest/refs/heads/main/images/Intro-Enhanced.png",
+        "versions": [
+            {
+                "version": "6.0.0.0",
+                "changelog": "- Unstable: Update to latest Jellyfin preview packages (#60) @crobibero, @jellyfin-bot\n- Update link to Pre-rolls Community website (#56) @klaxusnexus, @crobibero",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/Vocal-Extensions/Intro-Enhanced/releases/download/v1/intro-enhanced_6.0.0.0.zip",
+                "checksum": "f29f8a93c98bce57960feacdfed88ca3",
+                "timestamp": "2026-11-11T16:53:17Z"
+            }
+        ]
+    },
+    {
+        "guid": "0995f2af-377a-4aea-8977-0c88e4d83119",
+        "name": "Webhook Enhanced",
+        "description": "Sends notifications to various platforms & destinations via webhooks.",
+        "overview": "Sends notifications to various platforms & destinations via webhooks.",
+        "owner": "Zach J Murphy",
+        "category": "Administration",
+        "imageUrl": "https://raw.githubusercontent.com/Vocal-Extensions/manifest/refs/heads/main/images/Webhook-Enhanced.png",
+        "versions": [
+            {
+                "version": "23.0.0.0",
+                "changelog": "- Unstable: Update to latest Jellyfin preview packages (#387) @crobibero, @jellyfin-bot\n- Construct SMTP addresses by parsing (#324) @andrasmaroy\n- Fix color formatting in Discord template (#390) @espdesign",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/Vocal-Extensions/Webhook-Enhanced/releases/download/v1/webhook-enhanced_23.0.0.0.zip",
+                "checksum": "12bf6e0682b99b86a0af072cafe9b0a5",
+                "timestamp": "2026-11-11T16:53:06Z"
+            }
+        ]
+    },
+    {
+        "guid": "3d5cf514-9a68-42c1-94bd-ce7fa3cc399b",
+        "name": "TV Guide",
+        "description": "Virtual TV channels from library genres with weekly schedules",
+        "overview": "Auto-generates TV channels by genre from your media library",
+        "owner": "Zach J Murphy",
+        "category": "Live TV",
+        "imageUrl": "https://raw.githubusercontent.com/Vocal-Extensions/manifest/refs/heads/main/images/TV-Guide.png",
+        "versions": [
+            {
+                "version": "2.2.00.0",
+                "changelog": "Release v2.2.00",
+                "targetAbi": "12.0.0.0",
+                "sourceUrl": "https://github.com/Vocal-Extensions/TV-Guide/releases/download/v2.2.00/12.0.0.0-TVGuide-2.2.00.0.zip",
+                "checksum": "eb40a5fc543b24fcece47e6e3be216b6",
+                "timestamp": "2026-11-11T16:53:00Z"
+            }
+        ]
+    }
+]
