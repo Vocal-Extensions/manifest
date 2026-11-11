@@ -1,4 +1,4 @@
-name: Update plugin manifest
+name: Update Plugin Manifest
 
 on:
   workflow_dispatch:
@@ -25,15 +25,15 @@ jobs:
           node-version: 22
           cache: npm
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm ci
 
-      - name: Update manifest
+      - name: Update Manifest
         run: npm run update
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
-      - name: Commit manifest changes
+      - name: Commit Manifest Changes
         run: |-
           if git diff --quiet -- manifest.json; then
             echo "Manifest is already up to date"

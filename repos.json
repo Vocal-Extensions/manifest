@@ -1,5 +1,5 @@
 {
-    "shemanaev/jellyfin-plugin-myshows": "ef35f6b1-7fe6-44ca-a215-232089fb9bc7",
-    "shemanaev/jellyfin-plugin-webhooks": "d8ca599b-ab3c-41b0-a4ea-6de1d52b9996",
-    "shemanaev/jellyfin-plugin-media-cleaner": "607fee77-97eb-41fe-bf22-26844d99ffb0"
+    "Vocal-Extensions/Intro-Enhanced": "060ea4dd-4c04-4db2-a961-e10f975a929c",
+    "Vocal-Extensions/Webhook-Enhanced": "0995f2af-377a-4aea-8977-0c88e4d83119",
+    "Vocal-Extensions/TV-Guide": "3d5cf514-9a68-42c1-94bd-ce7fa3cc399b"
 }
